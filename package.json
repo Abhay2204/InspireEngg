@@ -1,0 +1,29 @@
+{
+  "name": "inspire-engineering-services",
+  "version": "1.0.0",
+  "description": "Inspire Engineering Services - Professional website for industrial engineering solutions",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server . -p 3000 -o",
+    "start": "http-server . -p 3000",
+    "build": "echo 'Static site - no build process needed'",
+    "preview": "http-server . -p 4173"
+  },
+  "keywords": [
+    "engineering",
+    "industrial",
+    "fabrication",
+    "maintenance",
+    "construction"
+  ],
+  "author": "Inspire Engineering Services",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inspire-engineering/website"
+  },
+  "homepage": "https://www.ies-engineering.com"
+}
